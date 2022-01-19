@@ -1,0 +1,55 @@
+.dropdownUser {
+  color: rgba(0, 0, 0, 0.55) !important;
+  width: 100%;
+  padding-right: 2rem;
+  padding-left: 1rem;
+}
+
+.dropdownUser .nav-link {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.dropup .dropdown-menu[data-bs-popper] {
+  margin-left: 1rem;
+}
+
+.offcanvas-backdrop.show {
+  opacity: 0 !important;
+}
+
+.offcanvas-body {
+  max-height: calc(100% - 7rem) !important;
+  max-width: 500px;
+}
+
+.icon-size {
+  margin-right: 0.5rem;
+}
+.dropdown-item {
+  color: rgba(0, 0, 0, 0.55) !important;
+}
+
+.dropdown-item:hover {
+  color: #343a40 !important;
+  background-color: transparent !important;
+}
+
+.dropdown-item:focus {
+  color: #343a40 !important;
+  background-color: transparent !important;
+}
+
+nav {
+  position: sticky;
+}
+
+.active {
+  visibility: visible;
+  transition: all 0.3s;
+}
+
+.hidden {
+  visibility: hidden;
+  transition: all 0.3s;
+  transform: translateY(-100%);
+}
